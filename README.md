@@ -18,3 +18,16 @@ It has been good practice using stacks :).
    - No disk may be placed on top of a smaller disk.
 
 3. The program will track the number of moves you make, and you can try to solve it in the **minimum number of moves**.
+
+
+## Installation
+
+**Option 1 — Download ZIP**
+1. Click the green **Code** button
+2. Select **Download ZIP** and extract it
+3. Open in your IDE and run
+
+**Option 2 — Clone using Git**
+```bash
+git clone https://github.com/samjj05/towers_of_hanoi.git
+cd towers_of_hanoi
