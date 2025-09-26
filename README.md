@@ -1,8 +1,11 @@
 ## Towers of Hanoi
 
 This is a Python terminal game implementing the Towers of Hanoi puzzle.
-I saw this when looking over the Codecademy course syllabus for DSA. I thought it looked interesting, so I decided to implement it with some extra validation
-and features. It has been good practice using stacks :).
+I saw this when looking over the Codecademy course syllabus for DSA. I thought it looked interesting, so I decided to implement it with some extra features, such as:
+- input validation,
+- outputting the move counter when playing, whilst comparing it to the most optimal move amount,
+- clear invalid input messages.
+It has been good practice using stacks :).
 
 
 ## How to Play
