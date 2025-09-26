@@ -2,9 +2,9 @@
 
 This is a Python terminal game implementing the Towers of Hanoi puzzle.
 I saw this when looking over the Codecademy course syllabus for DSA. I thought it looked interesting, so I decided to implement it with some extra features, such as:
-- input validation,
-- outputting the move counter when playing, whilst comparing it to the most optimal move amount,
-- clear invalid input messages.
+   - input validation,
+   - outputting the move counter when playing, whilst comparing it to the most optimal move amount,
+   - clear invalid input messages.
 
 It has been good practice using stacks :).
 
