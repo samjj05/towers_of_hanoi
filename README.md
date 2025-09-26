@@ -5,6 +5,7 @@ I saw this when looking over the Codecademy course syllabus for DSA. I thought i
 - input validation,
 - outputting the move counter when playing, whilst comparing it to the most optimal move amount,
 - clear invalid input messages.
+
 It has been good practice using stacks :).
 
 
