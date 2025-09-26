@@ -8,13 +8,15 @@ def get_input():
         print("Options: ")
         for i in range(len(choices)):
             print(f"{choices[i]} for {stacks[i].name} Stack")
-        chosen_stack = input("").upper() # allows for lowercase input, makes user's experience easier
+        # allows for lowercase input, makes user's experience easier
+        chosen_stack = input("").upper() 
         if chosen_stack not in choices:
             print("\nInput not a valid Stack. Please try again.\n")
             continue
         for i in range(len(choices)):
             if chosen_stack == choices[i]:
-                return stacks[i] # returns stack chosen
+                # returns stack chosen
+                return stacks[i] 
 
 print("""
 Welcome to the Towers of Hanoi!
@@ -67,14 +69,17 @@ while right_stack.size != num_disks:
     from_stack = get_input()
     print("\nWhich Stack would you like to move to?: ")
     to_stack = get_input()
-    if from_stack == to_stack: # makes sure both Stack inputs are different
+    # makes sure both Stack inputs are different
+    if from_stack == to_stack: 
         print("\nYou cannot move from a Stack to the same Stack. Please try again.\n")
         continue
-    if from_stack.is_empty(): # makes sure you can't move from an empty Stack and waste a move
+    # makes sure you can't move from an empty Stack and waste a move
+    if from_stack.is_empty(): 
         print("\nYou cannot move from an empty Stack. Please try again.\n")
         continue
     disk_from = from_stack.peek()
-    if to_stack.is_empty() or disk_from < to_stack.peek(): # ensures the target stack will still be in order, rule of the game
+    # ensures the target stack will still be in order, rule of the game
+    if to_stack.is_empty() or disk_from < to_stack.peek(): 
         to_stack.push(disk_from)
         from_stack.pop()
         num_moves_made += 1 # move made!
